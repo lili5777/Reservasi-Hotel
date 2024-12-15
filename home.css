@@ -1,0 +1,85 @@
+.navbar{
+    background-color: #323334;
+    color: white;
+}
+
+.sub:hover{
+    color: silver;
+}
+
+
+
+.banner-content{
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul1{
+    height: 50px;
+    width: 348px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    margin-top: 250px;
+    
+}
+.pop{
+    height: 300px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.6);
+    /*position: relative;*/
+    margin-top: 300px;
+    z-index: 0;
+    transition: 0.4s;
+    
+
+    }
+ 
+.cardnew1:hover .pop{
+    margin-top: 0px;
+}
+
+.card:hover{
+    background-color: #d0d0d0;
+}
+
+.gelery{
+    background-color: #323334;
+    color: white;
+}
+
+.fasilitas{
+    background-color: #323334;
+}
+
+.dash:hover{
+    background-color: gray;
+}
+
+.Detail{
+    text-decoration: none;
+}
+
+
+.card-body-icon{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    opacity: 0.4;
+    font-size: 90px;
+}
+
+.hr{
+    color: grey;
+}
+
+.hov:hover{
+    background-color: gray;
+}
+
+.judul{
+    text-align: center;
+}
